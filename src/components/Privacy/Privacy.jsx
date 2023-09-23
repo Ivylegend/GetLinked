@@ -1,10 +1,9 @@
 import React from "react";
 import "./Privacy.css";
 import HeaderText from "../HeaderText/HeaderText";
-import Locked from "../../assets/images/Vectorlocked.png";
 import Unlocked from "../../assets/images/Unlock.png";
 import Tick from "../../assets/images/tick.png";
-import Flare1 from "../../assets/images/Flare1.png";
+import Flare1 from "../../assets/images/flare1.png";
 
 const Privacy = () => {
   return (

@@ -1,7 +1,6 @@
 import React from "react";
 import ImgTxt from "../../components/Image&Text/ImgTxt";
 import TxtImg from "../../components/Text&Image/TxtImg";
-// import ImgTxt from "../../components/Image&Text/ImgTxt";
 import Idea from "../../assets/images/big-idea.png";
 import Rule from "../../assets/images/rules.png";
 import Criteria from "../../components/Criteria/Criteria";
@@ -9,14 +8,12 @@ import FAQs from "../../components/FAQs/FAQs";
 import Privacy from "../../components/Privacy/Privacy";
 import Partners from "../../components/Partners/Partners";
 import Prizes from "../../components/Prizes/Prizes";
-import Timeline from "../../components/TImeline/Timeline";
-import strpink from "../../assets/images/smallPink.png";
-import bigpink from '../../assets/images/bigPink.png';
+import Timeline from "../../components/Timeline/Timeline";
 
 const Main = () => {
   return (
     <div>
-     <ImgTxt
+      <ImgTxt
         img={Idea}
         header="Introduction to getlinked"
         colored="tech Hackathon 1.0"
@@ -27,7 +24,7 @@ const Main = () => {
         of technology, and creating solutions that can change the world,
         that's what we're all about!"
       />
-     <TxtImg
+      <TxtImg
         img={Rule}
         header="Rules and"
         colored="Guidelines"

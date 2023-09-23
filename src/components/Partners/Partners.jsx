@@ -6,8 +6,8 @@ import "./Partners.css";
 import strwhite from "../../assets/images/starwhite.png";
 import strpink from "../../assets/images/smallPink.png";
 import strgray from "../../assets/images/stargray1.png";
-import Flare1 from "../../assets/images/Flare1.png";
-import Flare2 from "../../assets/images/Flare2.png";
+import Flare1 from "../../assets/images/flare1.png";
+import Flare2 from "../../assets/images/flare2.png";
 
 const Partners = () => {
   return (
