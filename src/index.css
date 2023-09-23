@@ -11,13 +11,13 @@
   -webkit-text-size-adjust: 100%;
   color: white;
 }
-
+/* 
 colors {
   primary: linear-gradient(to right, #ff26b9, #d434fe, #903aff);
   pink: #d434fe #ff26b9;
   purple: #903aff;
   black: #150e28;
-}
+} */
 
 * {
   padding: 0;
