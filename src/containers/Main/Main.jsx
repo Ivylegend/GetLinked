@@ -8,7 +8,7 @@ import FAQs from "../../components/FAQs/FAQs";
 import Privacy from "../../components/Privacy/Privacy";
 import Partners from "../../components/Partners/Partners";
 import Prizes from "../../components/Prizes/Prizes";
-import Timeline from "../../components/Timeline/Timeline";
+import Timeline from "../../components/Timelines/Timeline";
 
 const Main = () => {
   return (
