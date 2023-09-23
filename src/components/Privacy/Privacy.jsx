@@ -1,7 +1,7 @@
 import React from "react";
 import "./Privacy.css";
 import HeaderText from "../HeaderText/HeaderText";
-import Unlocked from "../../assets/images/Unlock.png";
+import Unlocked from "../../assets/images/unlock.png";
 import Tick from "../../assets/images/tick.png";
 import Flare1 from "../../assets/images/flare1.png";
 
