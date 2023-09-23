@@ -52,4 +52,12 @@
   .crit{
     width: 100%;
   }
+
+  .sm-wite{
+    left: 0;
+  }
+
+  .sm-pink{
+    display: none;
+  }
 }

@@ -42,4 +42,10 @@
     .bigPink{
         display: none;
     }
+
+    .strPink{
+        top: 1000px;
+        left: 50px;
+        width: 15px;
+    }
 }

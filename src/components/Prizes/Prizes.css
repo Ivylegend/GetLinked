@@ -128,6 +128,22 @@
     flex-direction: column;
   }
 
+  .flr-gray{
+    display: none;
+  }
+
+  .flr-pink{
+    display: none;
+  }
+
+  .flr-wite1{
+    display: none;
+  }
+
+  .flr-wite2{
+    display: none;
+  }
+
   .app-flare {
     padding: 2rem 3rem 5rem;
   }

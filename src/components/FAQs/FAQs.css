@@ -84,6 +84,26 @@
         padding: 2rem 2rem 6rem;
     }
 
+    .stargray1{
+        display: none;
+    }
+
+    .strpink1{
+        display: none;
+    }
+
+    .strpink2{
+        display: none;
+    }
+
+    .strpink3{
+        display: none;
+    }
+
+    .strwhite1{
+        display: none;
+    }
+
     .faqs-inner{
         width: 100%;
         text-align: center;

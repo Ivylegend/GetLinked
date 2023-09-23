@@ -52,4 +52,16 @@
     .app__partners{
         padding: 2rem;
     }
+
+    .stp2{
+        display: none;
+    }
+
+    .stp{
+        display: none;
+    }
+
+    .stw{
+        display: none;
+    }
 }

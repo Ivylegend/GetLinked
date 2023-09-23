@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/images/getLinkedlogo.png";
+import Logo from "../../assets/images/getlinkedlogo.png";
 import Menu from "../../assets/images/nav-menu.png";
 import Close from "../../assets/images/Vectorcancel.png";
 import "./Navbar.css";
