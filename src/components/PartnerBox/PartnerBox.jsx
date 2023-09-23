@@ -3,7 +3,7 @@ import LibertyPay from "../../assets/images/libertypay.png";
 import Liberty from "../../assets/images/liberty.png";
 import Winwise from "../../assets/images/winwise.png";
 import Wisper from "../../assets/images/wisper.png";
-import vizual from "../../assets/images/vizual.png";
+import vizual from "../../assets/images/Vizual.png";
 import paybox from "../../assets/images/paybox.png";
 import './PartnerBox.css';
 
