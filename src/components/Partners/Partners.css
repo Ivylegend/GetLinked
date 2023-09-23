@@ -1,0 +1,55 @@
+.app__partners{
+    text-align: center;
+    padding: 4rem;
+}
+
+.stp{
+    position: absolute;
+    left: 150px;
+    top: 6250px;
+}
+
+.stp2{
+    position: absolute;
+    left: 760px;
+    top: 6340px;
+}
+
+.stw{
+    position: absolute;
+    top: 6710px;
+    left: 750px;
+}
+
+.partner-text{
+    width: 50%;
+    margin: 0 auto 2rem;
+}
+
+.fn1{
+    position: absolute;
+    opacity: 0.4;
+    left: 0;
+    width: 50%;
+}
+
+.fn2{
+    position: absolute;
+    right: 0;
+    opacity: 0.4;
+    width: 50%;
+}
+
+@media screen and (max-width: 790px) {
+    .partner-text{
+        width: 100%;
+    }
+
+    .partner-text p{
+        line-height: 1.4;
+    }
+
+    .app__partners{
+        padding: 2rem;
+    }
+}

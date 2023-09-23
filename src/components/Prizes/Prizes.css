@@ -1,0 +1,197 @@
+.app-flare {
+  background-color: #100b20;
+  padding: 4rem;
+}
+
+.flr-pink{
+  position: absolute;
+  left: 300px;
+}
+
+.flr-gray{
+  position: absolute;
+  left: 250px;
+  top: 6050px;
+}
+
+.flr-wite1{
+  position: absolute;
+  right: 600px;
+  top: 5550px;
+}
+
+.flr-wite2{
+  position: absolute;
+  right: 100px;
+  top: 5660px;
+}
+
+.app__prizes {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0;
+}
+
+.prize-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 10rem;
+}
+
+.pb {
+  border: 1px solid #d434fe;
+  padding: 1.5rem;
+  background-color: rgb(212, 52, 254, 0.1);
+  border-radius: 5px;
+  min-height: 200px;
+  max-width: 150px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  justify-content: center;
+}
+
+.pos-box {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.pb img {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: -70px;
+}
+
+.first {
+  height: 220px;
+  background-color: rgb(144, 58, 255, 0.1);
+  border-color: #903aff;
+}
+
+.first img {
+  width: 200px;
+  top: -130px;
+  right: -25px;
+}
+
+.position {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.prize-money {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #d434fe;
+}
+
+.first .prize-money {
+  color: #903aff;
+  font-weight: 700;
+}
+
+.highlight {
+  font-size: 14px;
+}
+
+.prizes-text {
+  width: 30%;
+  position: relative;
+  left: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.fcp2{
+  position: absolute;
+  left: 0;
+  opacity: 0.4;
+  width: 50%;
+}
+
+.fcp1{
+  position: absolute;
+  right: 0;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 790px) {
+  .app__prizes {
+    flex-direction: column;
+  }
+
+  .app-flare {
+    padding: 2rem 3rem 5rem;
+  }
+
+  .prize-img {
+    width: 100%;
+  }
+
+  .prize-box {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .prize-img img {
+    width: 100%;
+  }
+
+  .first {
+    height: 150px;
+  }
+
+  .pb {
+    max-width: 100px;
+    min-height: 120px;
+    line-height: 1.6x;
+    padding: 1rem;
+  }
+
+  .position {
+    font-size: 1rem;
+  }
+
+  .prize-money {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  .first img {
+    width: 160px;
+    /* left: 0px; */
+    right: -30px;
+    top: -100px;
+  }
+
+  .big-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pb {
+    width: 100%;
+  }
+
+  .prizes-text {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    right: 0;
+    left: 0;
+  }
+
+  .highlight {
+    margin: 0;
+  }
+}

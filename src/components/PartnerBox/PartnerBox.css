@@ -1,0 +1,102 @@
+.partnerBox{
+    padding: 5rem;
+    gap: 1rem;
+    border: 2px solid #d434fe;
+    border-radius: 5px;
+}
+
+.partnerBox .box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.partnerBox .box img{
+    width: 10%;
+}
+
+.partnerBox .box .leftt{
+    position: relative;
+    right: 10px;
+    top: -20px;
+}
+.partnerBox .box .leftb{
+    position: relative;
+    right: 10px;
+    top: 20px;
+}
+
+.partnerBox .box .rightb{
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+.partnerBox .box .rightt{
+    position: relative;
+    left: 10px;
+    top: -20px;
+}
+
+.box-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.part-line{
+    width: 30%;
+    height: 3px;
+    background-color: #d434fe;
+}
+
+.horiz{
+    width: 3px;
+    height: 150px;
+    background-color: #d434fe;
+}
+
+@media screen and (max-width: 769px) {
+    .partnerBox{
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .partnerBox .box{
+        justify-content: space-between;
+    }
+
+    .horiz{
+        height: 50px;
+        width: 2px;
+    }
+
+    .part-line{
+        height: 2px;
+    }
+
+    .partnerBox .box img{
+        width: 60px;
+        margin: 1rem 0;
+    }
+
+    .partnerBox .box .leftt{
+        position: relative;
+        right: -5px;
+        top: 10px;
+    }
+    .partnerBox .box .leftb{
+        position: relative;
+        right: -5px;
+        top: -5px;
+    }
+    
+    .partnerBox .box .rightb{
+        position: relative;
+        left: -5px;
+        top: -5px;
+    }
+    .partnerBox .box .rightt{
+        position: relative;
+        left: -5px;
+        top: 10px;
+    }
+}

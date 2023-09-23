@@ -1,0 +1,204 @@
+.app__timeline {
+  padding: 4rem 4rem 7rem;
+}
+
+.time-comps {
+  position: relative;
+  margin-top: 4rem;
+}
+
+.desktopflex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  margin: auto;
+  margin-top: 3rem;
+  left: 48%;
+  top: -7rem;
+}
+
+.outline-div {
+  margin-top: 10rem;
+}
+/* 
+.mobileflex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  display: none;
+} */
+
+.time-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.time-flex h3 {
+  font-size: 24px;
+  color: #d434fe;
+  margin-bottom: 1rem;
+}
+
+.time-flex p {
+  font-size: 16px;
+}
+
+.time-flex span {
+  width: 500px;
+}
+
+.shrt{
+  width: 350px;
+  margin: auto;
+  margin-right: 0px;
+}
+
+.right {
+  text-align: right;
+}
+
+.right p {
+  line-height: 2;
+}
+
+.left p {
+  line-height: 2;
+}
+
+.left {
+  text-align: left;
+}
+
+.left-date {
+  position: relative;
+  right: 260px;
+}
+
+.right-date {
+  position: relative;
+  left: 260px;
+}
+
+.time-text {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+.strs-pink{
+  position: absolute;
+  left: 240px;
+  top: -100px;
+}
+.strs-gray{
+  position: absolute;
+  left: 100px;
+  bottom: 70px;
+}
+.strs-wite{
+  position: absolute;
+  right: 150px;
+  top: 350px;
+}
+
+.mobile-date{
+  display: none;
+}
+
+@media screen and (max-width: 790px) {
+  .desktopflex {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: unset;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .mobile-date{
+    display: flex;
+  }
+
+  .app__timeline {
+    padding: 2rem 2.5rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .time-text{
+    line-height: 2;
+  }
+
+  .time-flex p {
+    font-size: 12px;
+  }
+
+  .time-flex h3 {
+    font-size: 12px;
+    margin-bottom: 0rem;
+  }
+
+  .shrt{
+    width: 100%;
+  }
+
+  .time-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 130px;
+    margin-top: 0rem;
+    margin-bottom: 2.7rem;
+    line-height: 2.2;
+  }
+
+  .time-flex span{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+  }
+
+  .right {
+    text-align: left;
+  }
+
+  .right-date {
+    position: unset;
+    text-align: left;
+    display: none;
+  }
+
+  .left-date {
+    position: unset;
+    text-align: left;
+    display: none;
+  }
+
+  .time-comps {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: unset;
+    margin: 2rem 0 0;
+    gap: 1rem;
+  }
+
+  .outline-div {
+    margin: 0;
+  }
+
+  .time-text {
+    width: 100%;
+  }
+}

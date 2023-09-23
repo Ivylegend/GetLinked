@@ -1,0 +1,285 @@
+.register {
+  display: flex;
+  padding: 3rem 5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.register img{
+  width: 100%;
+}
+
+.congrats{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ff26b9;
+  max-width: 500px;
+  height: 500px;
+  padding: 2rem;
+  text-align: center;
+  margin: 3rem auto;
+  border-radius: 5px;
+  gap: 1rem;
+  background: rgb(16, 11, 32, 0.1);
+}
+
+.congrats button{
+  width: 100%;
+}
+
+.congrats h3{
+  font-size: 1.5rem;
+}
+
+.congrats p{
+  width: 270px;
+}
+
+.form-flare {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.form-flare .one {
+  position: relative;
+  left: -420px;
+  width: 380px;
+}
+
+.form-flare .two {
+  position: relative;
+  /* left: -50px; */
+  right: -165px;
+  width: 300px;
+}
+
+.regist {
+  font-size: 32px;
+}
+
+.regist-two {
+  background-color: #100b20;
+  padding: 4rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  width: 740px;
+  flex: 1;
+  height: 790px;
+  /* z-index: 5; */
+}
+
+.man {
+  width: 50%;
+}
+
+.part {
+  margin: 2rem 0 1rem;
+}
+
+.create {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.group {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+.inp input {
+  margin-top: 1rem;
+}
+
+.inp input::placeholder {
+  color: white;
+  opacity: 25%;
+}
+
+.check {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.check input {
+  width: 20px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  top: 0.3rem;
+}
+
+.inp select {
+  min-width: 250px;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  margin-top: 1rem;
+}
+
+.inp select option {
+  background-color: black;
+}
+
+.inp input {
+  min-width: 250px;
+}
+
+.review {
+  color: #ff26b9;
+  font-size: 14px;
+}
+
+.registbtn {
+  margin: auto;
+  min-width: 100%;
+}
+
+.submitbtn{
+  display: none;
+}
+
+.notregist{
+  display: none;
+}
+
+@media screen and (max-width: 790px) {
+  .register {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem 3rem;
+  }
+
+  .congrats{
+    width: 300px;
+    height: 300px;
+    gap: .5rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .congrats img{
+    width: 60%;
+  }
+
+  .congrats p{
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .congrats h3{
+    font-size: 14px;
+  }
+
+  .notregist{
+    display: flex;
+    font-size: 24px;
+    padding: 2rem 2rem 0;
+    color: #ff26b9;
+  }
+
+  .regist{
+    display: none;
+  }
+
+  .form-flare {
+    display: none;
+  }
+
+  .man {
+    width: 100%;
+  }
+
+  .man img {
+    width: 100%;
+  }
+
+  .group {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .regist-two {
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .part {
+    margin-bottom: 0;
+  }
+
+  .create {
+    font-size: 20px;
+  }
+
+  .review {
+    font-size: 10px;
+    font-family: "Italic", sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+  .inp input{
+    height: 39px;
+  }
+
+  .check {
+    align-items: flex-start;
+  }
+
+  .check p {
+    font-size: 10px;
+  }
+
+  .check input {
+    position: relative;
+    top: 0.2rem;
+  }
+
+  .inp select {
+    min-width: 30px;
+  }
+
+  .select {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0rem;
+  }
+
+  .i-one {
+    max-width: 80px;
+  }
+
+  .i-two {
+    max-width: 90px;
+  }
+
+  .registbtn{
+    display: none;
+  }
+
+  .submitbtn{
+    display: block;
+    margin: auto;
+  }
+
+  .inp select{
+    padding: 0.6rem 1rem;
+  }
+}

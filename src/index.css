@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Unica+One&display=swap");
+:root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  /* line-height: 1.5; */
+  /* font-weight: 400; */
+  font-family: "Clash Display", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  color: white;
+}
+
+colors {
+  primary: linear-gradient(to right, #ff26b9, #d434fe, #903aff);
+  pink: #d434fe #ff26b9;
+  purple: #903aff;
+  black: #150e28;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+.timer {
+  font-family: "Unica One", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+}
+
+.gradient {
+  background: linear-gradient(to right, #ff26b9, #d434fe, #903aff);
+}
+
+.gradient:hover {
+  background: transparent;
+}
+
+li {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  color: white;
+  width: 172px;
+  height: 53px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.1s ease;
+  position: relative;
+}
+
+.btn:hover {
+  background: linear-gradient(#150e28, #150e28) padding-box,
+    linear-gradient(to bottom, #903aff, #d434fe, #ff26b9) border-box;
+  border: 3px solid transparent;
+}
+
+.clicked {
+  background: linear-gradient(#150e28, #150e28) padding-box,
+    linear-gradient(to bottom, #903aff, #d434fe, #ff26b9) border-box;
+  border: 3px solid transparent;
+}
+
+.link-click {
+  background: linear-gradient(to right, #d434fe, #903aff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.link {
+  color: white;
+  font-weight: 600;
+}
+
+.link:hover {
+  background: linear-gradient(to right, #d434fe, #903aff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.pink {
+  color: #d434fe;
+}
+
+body {
+  background: #150e28;
+}
+
+.section__padding {
+  padding: 2rem 4rem;
+}
+
+.coloredtxt {
+  color: #d434fe;
+}
+
+ul {
+  list-style: none;
+}
+
+.bottom {
+  border-bottom: 2px solid rgb(255, 255, 255, 0.2);
+}
+
+.headerText h3 {
+  font-size: 32px;
+  margin-bottom: 1.2rem;
+}
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .section__padding {
+    padding: 2rem;
+  }
+
+  .btn {
+    width: 152px;
+    height: 46px;
+  }
+
+  .headerText h3 {
+    font-size: 20px;
+    margin: 1rem auto;
+    line-height: 1.5;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  li {
+    font-size: 13px;
+  }
+}

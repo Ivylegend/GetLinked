@@ -1,0 +1,55 @@
+.app__criteria {
+  padding: 4rem 4rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.fy1{
+  position: absolute;
+  width: 50%;
+  opacity: 0.4;
+  left: 0;
+}
+
+.fy2{
+  position: absolute;
+  width: 50%;
+  opacity: 0.4;
+  right: 0;
+}
+
+.crit {
+  flex: 1;
+  width: 50%;
+}
+
+.crit img{
+    width: 100%;
+}
+
+.sm-pink{
+  position: absolute;
+  left: 600px;
+  top: 2850px;
+}
+
+.sm-wite{
+  position: absolute;
+  left: 200px;
+  top: 2150px;
+}
+
+@media screen and (max-width: 790px) {
+  .app__criteria{
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+    gap: 0;
+  }
+
+  .crit{
+    width: 100%;
+  }
+}

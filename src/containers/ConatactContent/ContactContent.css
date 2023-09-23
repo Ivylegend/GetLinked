@@ -1,0 +1,51 @@
+.contactcontent{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 7rem ;
+    /* max-width: 100%; */
+}
+
+.contactcontent .form-flare{
+    position: absolute;
+    opacity: .5;
+    z-index: 1;
+}
+
+.contactcontent .form-flare .one{
+    position: relative;
+    left: -150px;
+    width: 60%;
+}
+
+.contactcontent .form-flare .two{
+    position: absolute;
+    left: 913px; 
+    bottom: -170px;
+    /* right: 0px;  */
+    width: 50%;
+    display: inline;
+}
+
+@media screen and (max-width: 790px) {
+    .contactcontent{
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactcontent .form-flare{
+        display: flex;
+    }
+
+    .contactcontent .form-flare .one{
+        left: 0;
+        top: -300px;
+        /* width: 10%; */
+        /* width: 80%; */
+    }
+
+    .contactcontent .form-flare .two{
+        display: none;
+    }
+}

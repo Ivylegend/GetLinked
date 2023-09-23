@@ -1,0 +1,14 @@
+.app__question{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #d434fe;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    width: 88%;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.app__question svg{
+    color: #d434fe;
+}
