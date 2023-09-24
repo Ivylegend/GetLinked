@@ -22,7 +22,7 @@ const ImgTxt = ({ name, img, header, mediaQuery, colored, text, imgstyle }) => {
         <HeaderText text={header} colored={colored} />
         <p>{text}</p>
       </div>
-      <img src={bigpink} className="bigPink" />
+      <img src={bigpink} className="blink bigPink" />
     </div>
   );
 };

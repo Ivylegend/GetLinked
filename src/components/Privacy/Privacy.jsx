@@ -4,6 +4,12 @@ import HeaderText from "../HeaderText/HeaderText";
 import Unlocked from "../../assets/images/unlock.png";
 import Tick from "../../assets/images/tick.png";
 import Flare1 from "../../assets/images/flare1.png";
+import bPink from "../../assets/images/bigPink.png";
+import sPink from "../../assets/images/smallPink.png";
+import sGray from "../../assets/images/stargray1.png";
+import sGray2 from "../../assets/images/stargray2.png";
+import sTiny from "../../assets/images/startiny.png";
+import sWhite from "../../assets/images/starwhite.png";
 
 const Privacy = () => {
   return (
@@ -16,6 +22,13 @@ const Privacy = () => {
           Below are our privacy & policy, which outline a lot of goodies. it’s
           our aim to always take of our participant
         </p>
+        <img src={sPink} className="blink priv-s1"/>
+        <img src={sGray} className="blink priv-s2"/>
+        <img src={sPink} className="blink priv-s3"/>
+        <img src={sTiny} className="blink priv-s4"/>
+        <img src={sPink} className="blink priv-s5"/>
+        <img src={sWhite} className="blink priv-s6"/>
+        <img src={sGray2} className="blink priv-s7"/>
         <div className="privacy-box">
           <p>
             At getlinked tech Hackathon 1.0, we value your privacy and are

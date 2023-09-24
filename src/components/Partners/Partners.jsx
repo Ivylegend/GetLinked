@@ -16,9 +16,9 @@ const Partners = () => {
         <img className="fn1" src={Flare1} />
         <img className="fn2" src={Flare2} />
       </div>
-      <img className="stp" src={strpink}/>
-      <img className="stp2" src={strpink}/>
-      <img className="stw" src={strwhite}/>
+      <img className="blink stp" src={strpink}/>
+      <img className="blink stp2" src={strpink}/>
+      <img className="blink stw" src={strwhite}/>
       <div className="partner-text">
         <HeaderText text="Partners and Sponsors" />
         <p>

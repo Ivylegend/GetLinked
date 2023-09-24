@@ -18,10 +18,10 @@ const Prizes = () => {
         <img className="fcp2" src={Fcenter} />
         <img className="fcp1" src={Fright} />
       </div>
-      <img src={strpink} className="flr-pink" />
-      <img src={strgray} className="flr-gray" />
-      <img src={strwhite} className="flr-wite1" />
-      <img src={strwhite} className="flr-wite2" />
+      <img src={strpink} className="blink flr-pink" />
+      <img src={strgray} className="blink flr-gray" />
+      <img src={strwhite} className="blink flr-wite1" />
+      <img src={strwhite} className="blink flr-wite2" />
       <div className="prizes-text">
         <HeaderText text="Prizes and" colored="Rewards" />
         <p className="highlight">

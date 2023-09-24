@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const handleClick = () => {
     setClicked(!clicked);
-  }
+  };
 
   return (
     <div className="app__navbar">
@@ -36,32 +36,46 @@ const Navbar = () => {
           </Link>
         </ul>
         <Link className="link" to="/register">
-          <button onClick={handleClick} className={`gradient btn ${clicked ? 'clicked' : ""}`}>Register</button>
+          <button
+            onClick={handleClick}
+            className={`gradient btn ${clicked ? "clicked" : ""}`}
+          >
+            Register
+          </button>
         </Link>
       </div>
 
       {/* Mobile Menu  */}
       <div className="app-mobile-menu">
-        <img className="menu" src={Menu} onClick={() => settoggle(prev => !prev)}/>
+        <img
+          className="menu"
+          src={Menu}
+          onClick={() => settoggle((prev) => !prev)}
+        />
         {toggle && (
           <div className="mobile-menu slide-bottom slide-top">
-            <img src={Close} onClick={() => settoggle(prev => !prev)}/>
+            <img src={Close} onClick={() => settoggle((prev) => !prev)} />
             <ul>
               <Link to="#timeline" className="link">
-                <li>Timeline</li>
+                <li onClick={() => settoggle((prev) => !prev)}>Timeline</li>
               </Link>
               <Link className="link">
-                <li>Overview</li>
+                <li onClick={() => settoggle((prev) => !prev)}>Overview</li>
               </Link>
               <Link to="#faqs" className="link">
-                <li>FAQs</li>
+                <li onClick={() => settoggle((prev) => !prev)}>FAQs</li>
               </Link>
               <Link className="link" to="/contact">
-                <li>Contact</li>
+                <li onClick={() => settoggle((prev) => !prev)}>Contact</li>
               </Link>
             </ul>
             <Link className="link" to="/register">
-              <button className="gradient btn">Register</button>
+              <button
+                onClick={() => settoggle((prev) => !prev)}
+                className="gradient btn"
+              >
+                Register
+              </button>
             </Link>
           </div>
         )}

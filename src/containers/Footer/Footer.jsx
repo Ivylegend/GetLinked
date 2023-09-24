@@ -14,10 +14,10 @@ const Footer = () => {
   return (
     <div className="foot">
       <div className="app__footer ">
-        <img className="foot-strwite" src={strwhite}/>
-        <img className="foot-strpink" src={strpink}/>
-        <img className="foot-strwite2" src={strwhite}/>
-        <img className="foot-strwite3" src={strwhite}/>
+        <img className="blink foot-strwite" src={strwhite}/>
+        <img className="blink foot-strpink" src={strpink}/>
+        <img className="blink foot-strwite2" src={strwhite}/>
+        <img className="blink foot-strwite3" src={strwhite}/>
         <div className="footer-one">
           <span>
             <img src={Logo} alt="" />

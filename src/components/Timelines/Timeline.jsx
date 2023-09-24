@@ -18,9 +18,9 @@ const Timeline = () => {
       </div>
       <div className="time-comps">
         <div className="outline-div">
-          <img className="strs-pink" src={strpink}/>
-          <img className="strs-gray" src={strgray}/>
-          <img className="strs-wite" src={strwhite}/>
+          <img className="blink strs-pink" src={strpink}/>
+          <img className="blink strs-gray" src={strgray}/>
+          <img className="blink strs-wite" src={strwhite}/>
           <div className="time-flex">
             <span className="right">
               <h3>Hackathon Announcement</h3>

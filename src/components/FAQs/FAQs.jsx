@@ -12,7 +12,7 @@ import strgray from "../../assets/images/stargray1.png";
 const FAQs = () => {
   return (
     <div id="faqs" className="app_faqs bottom">
-      <img className="strpink3" src={strpink} />
+      <img className="blink strpink3" src={strpink} />
       <div className="faqs-inner">
         <HeaderText text="Fequently Ask" colored="Questions" />
         <p className="inner-p">
@@ -28,10 +28,10 @@ const FAQs = () => {
           <Questions text="Can I work on a project I started before the hackathon?" />
         </div>
       </div>
-      <img className="stargray1" src={strgray} />
-      <img className="strpink1" src={strpink} />
-      <img className="strpink2" src={strpink} />
-      <img className="strwhite1" src={strwhite} />
+      <img className="blink stargray1" src={strgray} />
+      <img className="blink strpink1" src={strpink} />
+      <img className="blink strpink2" src={strpink} />
+      <img className="blink strwhite1" src={strwhite} />
       <div className="faqs-inner">
         <div className="qmark">
           <img className="qsmall" src={QSmall} />

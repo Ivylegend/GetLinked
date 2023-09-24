@@ -16,11 +16,11 @@ const Criteria = () => {
         <img className="fy1" src={Flare1} />
         <img className="fy2" src={Flare2} />
       </div>
-        <img src={strpink} className="sm-pink" />
+        <img src={strpink} className="blink sm-pink" />
       <div className="crit">
-        <img src={criterias} alt="" />
+        <img src={criterias} alt="criteria-img" />
       </div>
-        <img src={strwhite} className="sm-wite" />
+        <img src={strwhite} className="blink sm-wite" />
       <div className="crit">
         <HeaderText text="Judging Criteria" colored="Key attributes" />
         <Text

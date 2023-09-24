@@ -65,4 +65,12 @@
     .imgtxt-inner{
         width: 100%;
     }
+
+    .flc1{
+        opacity: .5;
+    }
+
+    .flc2{
+        opacity: .5;
+    }
 }

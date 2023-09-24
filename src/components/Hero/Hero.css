@@ -84,6 +84,10 @@
   font-weight: bold;
 }
 
+.pre-header i{
+  letter-spacing: 1.3px;
+}
+
 .hero-text {
   padding-left: 4rem;
 }
@@ -130,7 +134,7 @@
 
 .timer{
   font-size: 4rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .small{
@@ -140,6 +144,11 @@
 @media screen and (max-width: 790px) {
   .app__hero{
     text-align: center;
+  }
+
+  .curve{
+    position: relative;
+    right: -90px;
   }
 
   .fl1{

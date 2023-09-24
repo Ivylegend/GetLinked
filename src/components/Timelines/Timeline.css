@@ -150,6 +150,10 @@
     width: 100%;
   }
 
+  .strs-wite{
+    display: none;
+  }
+
   .time-flex {
     flex-direction: column;
     align-items: flex-start;

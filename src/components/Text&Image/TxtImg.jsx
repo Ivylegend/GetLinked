@@ -23,8 +23,8 @@ const ImgTxt = ({ name, img, header, mediaQuery, colored, text, imgstyle }) => {
         <div className="imgtxt-inner">
           <img src={img} alt={name} />
         </div>
-        <img className="wite" src={strwhite}/>
-        <img className="grey" src={strgray}/>
+        <img className="blink wite" src={strwhite}/>
+        <img className="blink grey" src={strgray}/>
         <div className="imgtxt-inner">
           <HeaderText text={header} colored={colored} />
           <p>{text}</p>

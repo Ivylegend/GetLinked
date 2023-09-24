@@ -3,6 +3,8 @@ import "./Register.css";
 import RegistMan from "../../assets/images/register.png";
 import FlareRight from "../../assets/images/reg-right.png";
 import FlareLeft from "../../assets/images/reg-left.png";
+import sPink from "../../assets/images/smallPink.png";
+import bPink from "../../assets/images/bigPink.png";
 import congrats from "../../assets/images/congrats.png";
 import axios from "axios";
 import { Link } from "react-router-dom";
@@ -34,33 +36,37 @@ const Register = () => {
 
   return (
     <div>
-      {submit ? (
-        <div className="congrats">
-          <div>
-            <img src={congrats} />
+      {submit && (
+        <div className="overlay">
+          <div className="congrats">
+            <div>
+              <img src={congrats} className="congs" />
+            </div>
+            <img className="blink succstar1" src={bPink} />
+            <img className="blink succstar2" src={sPink} />
+            <h3>
+              Congratulations <br /> you have successfully been Registered!
+            </h3>
+            <p>
+              Yes, it was easy and you did it! check your mail box for next step
+            </p>
+            <button
+              className="gradient btn"
+              onClick={() => {
+                setSubmit(false);
+              }}
+            >
+              <Link to="/">Back</Link>
+            </button>
           </div>
-          <h3>
-            Congratulations <br /> you have successfully been Registered!
-          </h3>
-          <p>
-            Yes, it was easy and you did it! check your mail box for next step
-          </p>
-          <button
-            className="gradient btn"
-            onClick={() => {
-              setSubmit(false);
-            }}
-          >
-            <Link to="/">Back</Link>
-          </button>
         </div>
-      ) : (
+      )}
         <>
           <h3 className="notregist pink">Register</h3>
           <div className="register">
             <div className="form-flare">
-              <img src={FlareLeft} className="one" />
-              <img className="two" src={FlareRight} />
+              <img src={FlareLeft} className="onef" />
+              <img className="twof" src={FlareRight} />
             </div>
             <div className="man">
               <img src={RegistMan} />
@@ -138,7 +144,6 @@ const Register = () => {
             </div>
           </div>
         </>
-      )}
     </div>
   );
 };

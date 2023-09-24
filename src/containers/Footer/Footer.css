@@ -6,25 +6,29 @@
 .foot-strwite{
   position: absolute;
   top: 8300px;
-  left: 10px;
+  left: 30px;
+  width: 20px;
 }
 
 .foot-strwite2{
   position: absolute;
   right: 100px;
   top: 8450px;
+  width: 20px;
 }
 
 .foot-strwite3{
   position: absolute;
   top: 8250px;
   right: 350px;
+  width: 15px;
 }
 
 .foot-strpink{
   position: absolute;
   top: 8450px;
   left: 600px;
+  width: 15px;
 }
 
 .app__footer {
