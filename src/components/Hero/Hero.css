@@ -142,6 +142,14 @@
     text-align: center;
   }
 
+  .fl1{
+    display: none;
+  }
+
+  .fl2{
+   display: none;
+  }
+
   .strgray1{
     display: none;
   }

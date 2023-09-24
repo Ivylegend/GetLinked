@@ -13,7 +13,7 @@ const ImgTxt = ({ name, img, header, mediaQuery, colored, text, imgstyle }) => {
         // flexDirection: imgstyle,
       }}
     >
-      <img src={strpink} className="strPink" />
+      <img src={strpink} className="blink strPink" />
 
       <div className="imgtxt-inner">
         <img src={img} alt={name} />

@@ -72,6 +72,21 @@ li {
   border: 3px solid transparent;
 }
 
+.blink {
+  -webkit-animation: blink 1.5s;
+  animation: blink 1.5s infinite linear;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .link-click {
   background: linear-gradient(to right, #d434fe, #903aff);
   -webkit-background-clip: text;

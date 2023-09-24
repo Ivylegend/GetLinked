@@ -26,8 +26,8 @@ const Hero = () => {
       <div className="hero">
         <div className="hero-text">
           <img className="bulb" src={Bulb} />
-          <img className="strwhite" src={starwhite}/>
-          <img className="strgray1" src={stargray1} />
+          <img className="blink strwhite" src={starwhite}/>
+          <img className="blink strgray1" src={stargray1} />
           <h1>
             getlinked Tech <br />
             Hackathon <span className="one"> 1.0</span>
@@ -43,7 +43,7 @@ const Hero = () => {
             00<span className="small">H</span> 00
             <span className="small">M</span> 00<span className="small">S</span>
           </p>
-          <img className="strgray2" src={stargray1} />
+          <img className="blink strgray2" src={stargray1} />
         </div>
         <div className="hero-img">
           <img src={Hero1} alt="" className="image image1" />
